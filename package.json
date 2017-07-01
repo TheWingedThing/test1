@@ -1,0 +1,25 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "YE",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TheWingedThing:zebraspots7876@github.com/TheWingedThing/test1.git"
+  },
+  "keywords": [
+    "YE"
+  ],
+  "author": "YE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWingedThing/test1/issues"
+  },
+  "homepage": "https://github.com/TheWingedThing/test1#readme"
+}
