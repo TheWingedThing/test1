@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "start": "http-server -p 80",
     "test": "node test/smoke.js"
   },
   "repository": {
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/TheWingedThing/test1/issues"
   },
-  "homepage": "https://github.com/TheWingedThing/test1#readme"
+  "homepage": "https://github.com/TheWingedThing/test1#readme",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "http-service": "^1.0.7"
+  }
 }
