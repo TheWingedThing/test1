@@ -1,1 +1,15 @@
 language: node_js
+jobs:
+  include:
+    - stage: unit tests
+      script: "Running unit tests (1)"
+    - stage: unit tests
+      script: "Running unit tests (2)"
+    - stage: deploy to heroku prod
+      script: skip
+      deploy: &heroku
+        provider: heroku
+        app: frozen-river-85924
+        api_key: $HEROKU_AUTH_TOKEN
+    - stage: test staging
+      script: 'curl http://frozen-river-85924.herokuapp.com'
