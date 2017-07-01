@@ -1,7 +1,7 @@
 {
   "name": "test1",
   "version": "1.0.0",
-  "description": "YE",
+  "description": "test continuous delivery",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -10,15 +10,8 @@
     "start": "http-server -p 80",
     "test": "node test/smoke.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://TheWingedThing:zebraspots7876@github.com/TheWingedThing/test1.git"
-  },
-  "keywords": [
-    "YE"
-  ],
-  "author": "YE",
-  "license": "ISC",
+  "author": "Marilena",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/TheWingedThing/test1/issues"
   },
