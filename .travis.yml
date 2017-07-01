@@ -1,18 +1,18 @@
 language: node_js
 jobs:
   include:
-    - stage: deploy to heroku prod
-      script: skip
-      deploy: &heroku
-        provider: heroku
-        app: frozen-river-85924
-        api_key: $HEROKU_AUTH_TOKEN
-    - stage: test staging
-      script: 'curl http://frozen-river-85924.herokuapp.com'
+#    - stage: deploy to heroku prod
+#      script: skip
+#      deploy: &heroku
+#        provider: heroku
+#        app: frozen-river-85924
+#        api_key: $HEROKU_AUTH_TOKEN
+#    - stage: test staging
+#      script: 'curl http://frozen-river-85924.herokuapp.com'
     - stage: deploy to amazon
       script: skip
       deploy:
         provider: s3
         access_key_id: $AWS_KEY_ID
         secret_access_key: $AWS_SECRET_KEY
-        bucket: "S3 Bucket"
+        bucket: "rotlis-test1"
